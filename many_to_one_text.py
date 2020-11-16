@@ -2,7 +2,7 @@ import glob
 import sys
 
 loc_texts = sys.argv[1] ## location of texts
-loc_output_text = sys.argv[2] ## your data as input
+loc_output_text = sys.argv[2] 
 
 read_files = glob.glob(f"{loc_texts}/*.txt")
 
